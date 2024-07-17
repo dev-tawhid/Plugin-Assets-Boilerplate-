@@ -46,7 +46,7 @@ class AssetManagement {
     }
 
     public function load_textdomain() {
-        load_plugin_textdomain( 'assetmanagement', false, plugin_dir_url( __FILE__ ) . '/languages', array( 'jquery' ), 1.0, true );
+        load_plugin_textdomain( 'assetmanagement', false, plugin_dir_url( __FILE__ ) . '/languages');
     }
 }
 
